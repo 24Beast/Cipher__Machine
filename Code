@@ -120,7 +120,7 @@ while m==0:
                     print "Wrong input. \n"
       elif i1==2:
         print "What do you wish to decrypt ? \n"
- i2=input("(1-text,2-text file) \n")
+        i2=input("(1-text,2-text file) \n")
         z=raw_input("Enter text for decryption. \n")
         x=dtext(z)
         if i2==1:
