@@ -85,7 +85,6 @@ while m==0:
     if i1==1:
         print "What do you wish to encrypt ? \n"
         i2=input("(1-text,2-text file) \n")
-
         if i2==1:
             z=raw_input("Enter text for encryption. \n")
             x=text(z)
@@ -118,7 +117,7 @@ while m==0:
                     l.write(k)
             else:
                     print "Wrong input. \n"
-      elif i1==2:
+    elif i1==2:
         print "What do you wish to decrypt ? \n"
         i2=input("(1-text,2-text file) \n")
         z=raw_input("Enter text for decryption. \n")
@@ -164,7 +163,7 @@ while m==0:
         n.close()
         print "\n"
     elif i1==4:
-        n=open("C:\Python27\Vault.txt","r")
+        n=open("C:\Python27\Vault.txt","r")  #Update Path
         print n.read(),"\n"
         n.close()
     elif i1==5:
