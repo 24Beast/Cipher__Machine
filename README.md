@@ -6,3 +6,4 @@ The machine works in mainly 3 modes.
 2. Rail Fence Cipher
 3. Combination of Transposition and Shift Cipher.
 
+Note: Kindly use only numeric values in password.
